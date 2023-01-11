@@ -7,6 +7,9 @@ export const MOVIE_DB_FALLBACK_AVATAR =
 export const MOVIE_DB_FALLBACK_POSTER =
   "https://www.2queue.com/2queue/wp-content/uploads/sites/6/tdomf/4299/movie-poster-coming-soon.png";
 
+const movieListAPI =
+  "https://api.themoviedb.org/3/movie/popular?api_key=b40509d9062eb9558fab581929ad19fb&language=en-US&page=1";
+
 export const PosterSizes = {
   XS: "x45",
   SM: "w300",
