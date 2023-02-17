@@ -10,10 +10,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: radial-gradient(
     circle at 150% 0,
-    var(--dark-blue) 0,
-    var(--very-dark-blue) 100%
+    var(--ghost-white) 0,
+    var(--ghost-white) 100%
   );
-  color: var(--white);
+  color: var(--soft-gray);
   font-size: var(--font-l);
   line-height: 1.25;
 }
