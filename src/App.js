@@ -1,27 +1,15 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
+
+import { router } from "router";
 
 //styles
 import "styles/reset.css";
 import "styles/variables.css";
 import "styles/global.css";
 
-import { HomePage } from "pages/home-page";
-
 function App() {
-  return (
-    <RouterProvider
-      router={createBrowserRouter([
-        {
-          path: "/",
-          element: <HomePage />,
-        },
-        {
-          path: "/hakkımızda",
-          element: <div>Hakkımızda</div>,
-        },
-      ])}
-    />
-  );
+  console.log(router);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

@@ -1,12 +1,16 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+
+import * as S from "./styles";
+
+import { Main } from "components/main";
+import { Sidebar } from "components/sidebar";
 
 const MainLayouts = () => {
   return (
-    <>
-      <div>MainLayouts</div>
-      <Outlet />
-    </>
+    <S.MainLayout>
+      <Sidebar />
+      <Main />
+    </S.MainLayout>
   );
 };
 
